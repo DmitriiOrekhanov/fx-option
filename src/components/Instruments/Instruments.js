@@ -45,7 +45,6 @@ export const Instruments = () => {
   const currencyChangeHandler = (currencies) => {
     setMainCurrency(currencies.main);
     setSecondaryCurrency(currencies.secondary);
-    console.log(mainCurrency, secondaryCurrency);
 
     // cмена Strike при смене валютной пары
     // getStrikeValue(mainCurrency, secondaryCurrency).then((cur) =>
