@@ -1,0 +1,31 @@
+@import "../../scss/components";
+
+.container {
+  .container_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    > form {
+      width: calc(50% - 40px);
+    }
+    .bonus_type {
+      width: 50%;
+    }
+  }
+}
+.bonus_form {
+  position: relative;
+
+  .bonus_select {
+    position: absolute;
+    width: 100px;
+    height: 36px;
+  }
+  .bonus_input {
+    padding: 11px 0 11px 115px;
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+    width: calc(100% - 85px);
+  }
+}

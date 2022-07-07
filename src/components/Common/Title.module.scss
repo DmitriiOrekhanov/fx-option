@@ -1,0 +1,10 @@
+@import '../../scss/colors';
+
+.title {
+	width: 33%;
+	p {
+		font-size: 14px;
+		color: $title-color;
+		padding: 0 0 0 10px;
+	}
+}

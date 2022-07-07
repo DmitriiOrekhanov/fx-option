@@ -1,0 +1,22 @@
+@import "../../scss/components";
+
+.container {
+  .container_content {
+    display: flex;
+    flex-direction: column;
+    form {
+      input:checked {
+        + label {
+          font-weight: 600;
+        }
+      }
+      .asset {
+        margin-left: 50px;
+      }
+    }
+    .deal-date {
+      width: 50%;
+      margin-top: 20px;
+    }
+  }
+}

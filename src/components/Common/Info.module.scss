@@ -1,0 +1,15 @@
+@import "../../scss/colors";
+
+.title {
+  color: $title-color;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 6px;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 13px;
+  margin: 0;
+}
